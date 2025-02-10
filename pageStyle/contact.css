@@ -1,0 +1,29 @@
+#contact-form {
+    display: grid;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+#contact-form label {
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* justify-self: center; */
+#contact-form button {
+    justify-self: left;
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+}

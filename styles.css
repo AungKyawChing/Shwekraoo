@@ -1,0 +1,166 @@
+/* Root variables for dark mode (default) */
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    --primary-color: #4aa3df;
+    --secondary-color: #34495e;
+    --accent-color: #e74c3c;
+    --card-bg-color: #333333;
+}
+
+/* Light mode colors */
+.light-mode {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --card-bg-color: #d3d3d3;
+}
+
+/* Base styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark & Light Mode Theme - Start */
+/* Theme switch styles */
+.theme-switch {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 2;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+}
+
+.theme-switch:hover {
+    background-color: var(--primary-color);
+}
+
+.theme-switch i {
+    color: var(--bg-color);
+    font-size: 2rem;
+    position: absolute;
+    transition: 0.3s;
+}
+
+/* Dark & Light Mode Theme - End */
+
+/* Main content area styles */
+main {
+    padding: 4rem 1rem 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Page visibility styles - Start*/
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* Page visibility styles - End*/
+
+/* Navigation & Connect - Start */
+/* Toggle button - Start */
+.mobile-toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+}
+
+.mobile-toggle:hover {
+    color: var(--primary-color);
+}
+
+/* Cross Icon Color set */
+.fa-times {
+    color: var(--accent-color);
+}
+
+#mobile-nav-toggle {
+    top: 1rem;
+    right: 1rem;
+}
+
+#mobile-connect-toggle {
+    bottom: 1rem;
+    left: 1rem;
+}
+
+/* Toggle button - Start */
+/* Bar - Start */
+#navbar,
+#connect-bar {
+    position: fixed;
+    background-color: var(--secondary-color);
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 11.502rem;
+    overflow-y: auto;
+}
+
+#navbar {
+    top: 0;
+    right: 0;
+    height: 100%;
+    transform: translateX(100%);
+    padding: 4rem 1rem 1rem;
+}
+
+#connect-bar {
+    bottom: 0;
+    left: 0;
+    height: auto;
+    transform: translateX(-100%);
+    padding: 1rem 1rem 4rem;
+}
+
+#navbar.active,
+#connect-bar.active {
+    transform: translateX(0);
+}
+
+#navbar a,
+#connect-bar a {
+    color: var(--bg-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#navbar a:hover,
+#connect-bar a:hover {
+    background-color: var(--primary-color);
+}
+
+/* Bar - End */
+/* Navigation & Connect - End */

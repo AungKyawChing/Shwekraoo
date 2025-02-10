@@ -1,0 +1,53 @@
+/* Grid layout styles - Start */
+/* Used at page : Live CCTV, Fund Monitor, Donation, Gallery, Events, Blog, Forum, Community Members, Contact */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* Grid layout styles - End */
+
+/* Card styles - Start */
+/* Used at page : Live CCTV, Fund Monitor, Donation, Gallery, Events, Blog, Forum, Community Members, Contact */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--card-bg-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Used at page : Live CCTV, Fund Monitor, Donation, Events, Blog, Forum, Community Members, Contact */
+.card h3 {
+    color: var(--primary-color);
+}
+
+/* Card styles - End */
+
+/* Button styles - Start */
+/* Used at page : Donation, Events, Blog, Forum, Contact */
+.button {
+    display: inline-block;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    margin-top: auto;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Button styles - End */
+
+/* Used at page : Blog, Forum */
+.float-right {
+    float: right;
+}

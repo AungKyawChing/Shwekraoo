@@ -1,0 +1,41 @@
+#fund-monitor table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#fund-monitor th,
+#fund-monitor td {
+    border: 1px solid var(--primary-color);
+    padding: 4px;
+    text-align: center;
+}
+
+#fund-monitor thead {
+    position: sticky;
+    top: -1px;
+}
+
+#fund-monitor th {
+    background-color: var(--primary-color);
+}
+#fund-monitor .transaction-link{
+    font-weight: bold;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+#fund-monitor button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    color: var(--bg-color);
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#fund-monitor #close-details {
+    background-color: var(--accent-color);
+}

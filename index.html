@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shwe Kraoo Buddhist Temple</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="pageStyle/utilities.css">
+    <link rel="stylesheet" href="pageStyle/home.css">
+    <link rel="stylesheet" href="pageStyle/fundMonitor.css">
+    <link rel="stylesheet" href="pageStyle/communityMembers.css">
+    <link rel="stylesheet" href="pageStyle/contact.css">
+</head>
+
+<body>
+    <button id="theme-switch" class="theme-switch">
+        <i class="fas fa-sun"></i>
+    </button>
+    <button id="mobile-nav-toggle" class="mobile-toggle">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times" style="display: none;"></i>
+    </button>
+    <nav id="navbar">
+        <!-- Navigation links will be dynamically inserted here -->
+    </nav>
+
+    <main id="content">
+        <div id="home" class="page active">
+            <div class='home-content'>
+                <img src='image/home-background/vecteezy.jpg'
+                    alt='Background Image Missing' class='home-background'>
+                <h1 class='welcome-text'>Welcome To <br> Shwe Kraoo Buddhist Temple</h1>
+                <p class='welcome-text'>Calm the mind, inspire the soul.</p>
+            </div>
+        </div>
+
+        <div id="about" class="page">
+            <h1>About Shwe Kraoo Buddhist Temple</h1>
+            <p>Founded on June 15, 1911, Shwe Kraoo Buddhist Temple has been dedicated to making a positive impact in our community for over 150 years.</p>
+            <h2>Our Location</h2>
+            <p>Harbang, Chakariya, Cox's Bazar</p>
+            <h2>Our Founders</h2>
+            <ul>
+                <li>Un Kra U</li>
+                <li>Khaing Ja Prue</li>
+                <li>Shwe Hla Fru</li>
+            </ul>
+            <h2>Our Mission</h2>
+            <p>At Shwe Kraoo Buddhist Temple, we strive to promote and preserve the core values and teachings of buddhism.</p>
+        </div>
+
+        <div id="live-cctv" class="page">
+            <h1>Live CCTV Feed</h1>
+            <!-- <p>For privacy and security reasons, we cannot display actual CCTV footage on a public website. In a real implementation, this page would require secure authentication and proper authorization to access live CCTV feeds.</p> -->
+            <div class='grid'>
+                <div class='card'>
+                    <h3>CCTV 1 - Main Entrance</h3>
+                    <video controls width="100%">
+                        <source src='video/temple.mp4' type='video/mp4'>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class='card'>
+                    <h3>CCTV 2 - Donation Center</h3>
+                    <video controls width="100%">
+                        <source src='video/temple.mp4' type='video/mp4'>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class='card'>
+                    <h3>CCTV 3 - Community Hall</h3>
+                    <video controls width="100%">
+                        <source src='video/temple.mp4' type='video/mp4'>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div id="fund-monitor" class="page">
+            <h1>Fund Monitor</h1>
+            <p>Transparency is one of our core values. Here's an overview of our income and expenditures:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date & Time</th>
+                        <th>Reason</th>
+                        <th>Income / Expenses</th>
+                        <th>Fund Balance</th>
+                    </tr>
+                </thead>
+                <tbody id="fundTableBody"></tbody>
+            </table>
+            <div id="transaction-details" style="display: none;">
+                <button id="close-details" class="float-right">Close</button>
+                <h3 id="transaction-title"></h3>
+                <table id="transaction-table">
+                    <thead>
+                        <tr>
+                            <th>Date & Time</th>
+                            <th>Reason</th>
+                            <th>Amount</th>
+                            <th>Balance</th>
+                            <th>Note</th>
+                        </tr>
+                    </thead>
+                    <tbody id="transactionTableBody"></tbody>
+                </table>
+            </div>
+            <script src="pageContent/fundMonitor.js"></script>
+            <p>For more detailed financial report, please contact our finance department.</p>
+        </div>
+
+        <div id="donation" class="page">
+            <h1>Make a Donation</h1>
+            <p>Your donation will support our work:</p>
+            <div class='grid'>
+                <div class='card'>
+                    <h3>Credit Card</h3>
+                    <p>Secure online payment via our payment processor.</p>
+                    <a href='#donation' class='button'>Donate with Card</a>
+                </div>
+                <div class='card'>
+                    <h3>Mobile Banking</h3>
+                    <p>Quick and easy donation through MFS.</p>
+                    <p>Personal Accounts <br> bKash: 1234567890<br>Nagad: 987654321 <br>Rocket: 987654321 </p>
+                </div>
+                <div class='card'>
+                    <h3>Bank Transfer</h3>
+                    <p>Direct bank transfer to our account.</p>
+                    <p>Account Name: Shwe Kraoo Buddhist Temple<br>Account Number: 1234567890<br>Routing Number: 987654321</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="history" class="page">
+            <h1>Our History</h1>
+            <div class='timeline'>
+                <div class='event'>
+                    <h3>2005</h3>
+                    <p>Shwe Kraoo Buddhist Temple is established by Un Kra U, Khaing Ja Prue and Shwe Hla Fru with a mission to promote and preserve the core values and teachings of buddhism.</p>
+                </div>
+                <div class='event'>
+                    <h3>2010</h3>
+                    <p>Expanded our services to include support for elderly community members.</p>
+                </div>
+                <div class='event'>
+                    <h3>2015</h3>
+                    <p>Opened our first community center, providing a space for education and social gatherings.</p>
+                </div>
+                <div class='event'>
+                    <h3>2025</h3>
+                    <p>Launched our Website to make globally digitally visible.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="gallery" class="page">
+            <h1>Gallery</h1>
+            <p>Take a look at some of the moments we've captured over the years:</p>
+            <div class='grid'>
+                <div class='card'>
+                    <img src='image/home-background/vecteezy.jpg'
+                        width=100% alt='Community gathering'>
+                    <p>Annual community meeting, 2022</p>
+                </div>
+                <div class='card'>
+                    <img src='image/home-background/vecteezy.jpg'
+                        width=100% alt='Volunteer group'>
+                    <p>Our amazing volunteers, 2023</p>
+                </div>
+                <div class='card'>
+                    <video controls width="100%">
+                        <source src='video/temple.mp4' type='video/mp4'>
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>20th Anniversary Celebration Video</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="events" class="page">
+            <h1>Events</h1>
+
+            <h2>Upcoming Event</h2>
+            <div class="grid">
+                <div class='card'>
+                    <h3>Annual Meeting</h3>
+                    <p>Date: December 15, 2025<br>Time: 7:00 PM - 11:00 PM<br>Location: Shwe Kraoo Buddhist Temple</p>
+                    <p>Join us for an evening of dinner, dancing, and fundraising for our community programs.</p>
+                    <a href='#' class='button'>Register Now</a>
+                </div>
+                <div class='card'>
+                    <h3>Annual Meeting</h3>
+                    <p>Date: December 15, 2025<br>Time: 7:00 PM - 11:00 PM<br>Location: Shwe Kraoo Buddhist Temple</p>
+                    <p>Join us for an evening of dinner, dancing, and fundraising for our community programs.</p>
+                    <a href='#' class='button'>Register Now</a>
+                </div>
+            </div>
+
+            <h2>Current Event</h2>
+            <div class="grid">
+                <div class='card'>
+                    <h3>Summer Reading Program</h3>
+                    <p>Date: June 1 - August 31, 2025<br>Location: Shwe Kraoo Buddhist Temple</p>
+                    <p>Our summer reading program is in full swing! Children aged 5-12 are welcome to join us for story time, reading challenges, and fun activities.</p>
+                    <a href='#' class='button'>Learn More</a>
+                </div>
+            </div>
+
+            <h2>Previous Event</h2>
+            <div class="grid">
+                <div class='card'>
+                    <h3>Spring Clean-Up Day</h3>
+                    <p>Date: April 22, 2025<br>Location: north side of temple</p>
+                    <p>Thank you to all the volunteers who joined us for our annual Spring Clean-Up Day. We collected over 500 pounds of litter and planted 50 new trees.</p>
+                    <img src='image/home-background/vecteezy.jpg' width=100% alt='Volunteers at Spring Clean-Up Day'>
+                </div>
+                <div class='card'>
+                    <h3>Spring Clean-Up Day</h3>
+                    <p>Date: April 22, 2025<br>Location: north side of temple</p>
+                    <p>Thank you to all the volunteers who joined us for our annual Spring Clean-Up Day. We collected over 500 pounds of litter and planted 50 new trees.</p>
+                    <img src='image/home-background/vecteezy.jpg' width=100% alt='Volunteers at Spring Clean-Up Day'>
+                </div>
+                <div class='card'>
+                    <h3>Spring Clean-Up Day</h3>
+                    <p>Date: April 22, 2025<br>Location: north side of temple</p>
+                    <p>Thank you to all the volunteers who joined us for our annual Spring Clean-Up Day. We collected over 500 pounds of litter and planted 50 new trees.</p>
+                    <img src='image/home-background/vecteezy.jpg' width=100% alt='Volunteers at Spring Clean-Up Day'>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="blog" class="page">
+            <a href='#' class='button float-right'>Write a Blog Post</a>
+            <h1>Blog</h1>
+            <div class='grid'>
+                <div class='card'>
+                    <h3>The Impact of Community Service</h3>
+                    <p>By Jane Doe | June 15, 2025</p>
+                    <p>In this post, we explore how community service can transform both the volunteers and the community they serve...</p>
+                    <a href='#' class='button'>Read More</a>
+                </div>
+                <div class='card'>
+                    <h3>5 Ways to Get Involved with Shwe Kraoo Buddhist Temple</h3>
+                    <p>By John Smith | May 1, 2025</p>
+                    <p>Discover five meaningful ways you can contribute to our mission and make a difference in your community...</p>
+                    <a href='#' class='button'>Read More</a>
+                </div>
+                <div class='card'>
+                    <h3>Success Story: From Struggle to Strength</h3>
+                    <p>By Sarah Johnson | April 10, 2025</p>
+                    <p>Read about how one of our program participants overcame adversity with the support of our community...</p>
+                    <a href='#' class='button'>Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="forum" class="page">
+            <a href='#' class='button float-right'>Start a New Topic</a>
+            <h1>Community Forum</h1>
+            <p>Join the conversation and share your ideas for community improvement.</p>
+            <div class='grid'>
+                <div class='card'>
+                    <h3>Ideas for New Youth Programs</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugit quas error illo et quisquam
+                        aperiam reiciendis voluptates necessitatibus quam, atque maxime culpa mollitia nostrum, magni
+                        quae, pariatur obcaecati earum.</p>
+                    <p>Started by: Michael Brown | Replies: 15</p>
+                    <a href='#' class='button'>Join Discussion</a>
+                </div>
+                <div class='card'>
+                    <h3>Volunteer Opportunities Needed</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugit quas error illo et quisquam
+                        aperiam reiciendis voluptates necessitatibus quam, atque maxime culpa mollitia nostrum, magni
+                        quae, pariatur obcaecati earum.</p>
+                    <p>Started by: Emily Chen | Replies: 8</p>
+                    <a href='#' class='button'>Join Discussion</a>
+                </div>
+                <div class='card'>
+                    <h3>Fundraising Ideas for all Festival</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugit quas error illo et quisquam
+                        aperiam reiciendis voluptates necessitatibus quam, atque maxime culpa mollitia nostrum, magni
+                        quae, pariatur obcaecati earum.</p>
+                    <p>Started by: Alex Thompson | Replies: 22</p>
+                    <a href='#' class='button'>Join Discussion</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="community-members" class="page">
+            <h1>Community Members</h1>
+            <p>Meet the dedicated individuals who make our work possible:</p>
+            <div class='grid'>
+                <div class='card'>
+                    <img class="profile-picture" src='image/home-background/vecteezy.jpg' alt='Jane Doe'>
+                    <h3>Jane Doe</h3>
+                    <p>Role: Founder & Executive Director</p>
+                    <p>Bio: Jane has been passionate about community service for over 20 years...</p>
+                    <p>Contact: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                            data-cfemail="d8b2b9b6bdf6bcb7bd98b0b7a8bdbeb7adb6bcb9acb1b7b6f6b7aabf">[email&#160;protected]</a>
+                    </p>
+                </div>
+                <div class='card'>
+                    <img class="profile-picture" src='image/home-background/vecteezy.jpg' alt='John Smith'>
+                    <h3>John Smith</h3>
+                    <p>Role: Co-Founder & Program Director</p>
+                    <p>Bio: John brings his experience in education to develop impactful programs...</p>
+                    <p>Contact: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                            data-cfemail="fe94919690d08d93978a96be96918e9b98918b909a9f8a979190d0918c99">[email&#160;protected]</a>
+                    </p>
+                </div>
+                <div class='card'>
+                    <img class="profile-picture" src='image/home-background/vecteezy.jpg' alt='Sarah Johnson'>
+                    <h3>Sarah Johnson</h3>
+                    <p>Role: Volunteer Coordinator</p>
+                    <p>Bio: Sarah manages our amazing team of volunteers and organizes community events...</p>
+                    <p>Contact: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                            data-cfemail="4a392b382b2264202522243925240a22253a2f2c253f242e2b3e2325246425382d">[email&#160;protected]</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="page">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Here's how you can reach us:</p>
+            <div class='grid'>
+                <div class='card'>
+                    <h3>Main Office</h3>
+                    <p>Harbang, Chakariya, Cox's bazar<br>Cox's Bazar, Chittagong, Bangladdesh</p>
+                    <p>Phone: (555) 123-4567<br>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                            data-cfemail="e0898e868fa0888f9085868f958e848194898f8ece8f9287">[email&#160;protected]</a>
+                    </p>
+                </div>
+                <div class='card'>
+                    <h3>Donation Inquiries</h3>
+                    <p>For questions about donations or fundraising:</p>
+                    <p>Phone: (555) 987-6543<br>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                            data-cfemail="05616a6b64716c6a6b76456d6a7560636a706b6164716c6a6b2b6a7762">[email&#160;protected]</a>
+                    </p>
+                </div>
+                <div class='card'>
+                    <h3>Volunteer Opportunities</h3>
+                    <p>To learn about volunteering with us:</p>
+                    <p>
+                        Phone: (555) 456-7890
+                        <br>
+                        Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                            data-cfemail="7f0910130a110b1a1a0d3f17100f1a19100a111b1e0b16101151100d18">[email&#160;protected]</a>
+                    </p>
+                </div>
+            </div>
+            <h2>Send Us a Message</h2>
+            <form id='contact-form'>
+                <label for='name'>Name:</label>
+                <input type='text' id='name' name='name' required>
+                <label for='email'>Email:</label>
+                <input type='email' id='email' name='email' required>
+                <label for='message'>Message:</label>
+                <textarea id='message' name='message' required></textarea>
+                <button type='submit' class='button'>Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <button id="mobile-connect-toggle" class="mobile-toggle">
+        <i class="fas fa-share-alt"></i>
+        <i class="fas fa-times" style="display: none;"></i>
+    </button>
+    <div id="connect-bar">
+        <!-- Social media links will be dynamically inserted here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
