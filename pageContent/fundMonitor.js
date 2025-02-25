@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     { date: "2025-02-15", time: "00:00", reason: "Convert the temple tree into planks", amount: -3000, note: "A contract deal has been made for BDT 3000 to convert the temple tree into planks." },
                     { date: "2025-02-15", time: "00:00", reason: "Planks processor Laborer tips", amount: -200, note: "Tips given for tree into planks converter" },
                     { date: "2025-02-23", time: "00:00", reason: "Bought 1.5 kilograms of nails", amount: -210, note: "Not Found!" },
-                    { date: "2025-02-23", time: "00:00", reason: "Apion charged, communication and travel expenses for the work", amount: -90, note: "Apion charged BDT 90 for communication and travel expenses with the workersa for their work." },
+                    { date: "2025-02-23", time: "00:00", reason: "Apion charged, communication and travel expenses of the work", amount: -90, note: "Apion charged BDT 90 for communication and travel expenses with the workersa for their work." },
                     { date: "2025-02-23", time: "00:00", reason: "Replaced the damaged planks", amount: -3000, note: "A contract deal has been made with the carpenter for BDT 3000 to replace the damaged planks on the floor with new planks." },
                     { date: '2025-02-28', time: "16:15", reason: "Return To Main Fund", amount: -100, note: "Returned unused funds to main account." }
                 ]
