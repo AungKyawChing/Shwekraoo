@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
             date: "2025-04-12",
             time: "16:44",
             reason: "Donation From Ma Cho Meyi(Meshang)",
-            amount: 500,
+            amount: 300,
             note: "Cash collected by Shwe Lung, Aung Kyaw Ching & Babuya",
           },
           {
