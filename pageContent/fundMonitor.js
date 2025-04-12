@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { date: '2025-01-01', time: "00:01", reason: 'As Much Money as there was in 2024', url: '2024-fund', amount: 0, note: "Not Found Any Main Fund Account."},
             { date: '2025-02-01', time: "00:00", reason: 'Floorboards replacement', url: 'floorboards-replacement-2025-February', amount: 0, note: `Starting floorboards replacement project without fund.`},
             { date: '2025-02-28', time: "16:15", reason: 'Return of Floorboards replacement', url: 'floorboards-replacement-2025-February', amount: 100, note: "Returned unused funds to main account from Floorboards replacement(2025-02-01 00:00)"},
-            { date: '2025-04-12', time: "15:30", reason: 'নববর্ষের আয়োজন, url: 'নববর্ষ-আয়োজন-২০২৫', amount: 0, note: `Starting নববর্ষ আয়োজন without fund.`},
+            { date: '2025-04-12', time: "15:30", reason: 'নববর্ষের আয়োজন, url: 'sangrai-2025', amount: 0, note: `Starting নববর্ষ আয়োজন without fund.`},
         ],
         transDetails: {
             'floorboards-replacement-2025-February': {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     { date: '2025-02-28', time: "16:15", reason: "Return To Main Fund", amount: -100, note: "Returned unused funds to main account." }
                 ]
             },
-	    'নববর্ষ-আয়োজন-২০২৫': {
+	    'sangrai-2025': {
 		title: "২০২৫ সালে নববর্ষের আয়োজন",
                 transactions: [
                     { date: '2025-04-12', time: "15:30", reason: "Initial Budget", amount: 0, note: "Initial budget allocation for ২০২৫ নববর্ষ আয়োজন" },
