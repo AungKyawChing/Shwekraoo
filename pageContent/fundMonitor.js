@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 transactions: [
                     { date: '2025-02-01', time: "00:00", reason: "Initial Budget", amount: 0, note: "Initial budget allocation for Floorboards replacement" },
                     { date: "2025-02-02", time: "00:00", reason: "Donation From Lung Ma Ching", amount: 5000, note: "Not Found!" },
-                    { date: "2025-02-02", time: "00:00", reason: "Donation From Hla Sen Way", amount: 1000, note: "Not Found!" },
+                    { date: "2025-02-02", time: "00:01", reason: "Donation From Hla Sen Way", amount: 1000, note: "Not Found!" },
                     { date: "2025-02-03", time: "00:00", reason: "Bought 7 pieces of round timber", amount: -2100, note: "Bought 7 pieces of round timber. Each piece of round timber price BDT 300 " },
                     { date: "2025-02-03", time: "00:00", reason: "Truck fare for bringing round timbers", amount: -300, note: "The transportation cost for bringing seven pieces of round timber from the shop to temple gate is BDT 300" },
                     { date: "2025-02-03", time: "00:00", reason: "Laborer's wage for carrying round timbers", amount: -100, note: "The laborer's wage for carrying seven pieces of round timber from the shop to temple gate is BDT 100" },
@@ -34,9 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     { date: "2025-02-23", time: "00:00", reason: "Replaced the damaged planks", amount: -3000, note: "A contract deal has been made with the carpenter for BDT 3000 to replace the damaged planks on the floor with new planks." },
                     { date: '2025-02-28', time: "16:15", reason: "Return To Main Fund", amount: -100, note: "Returned unused funds to main account." }
                 ]
-            }
+            },
 	    'নববর্ষ-আয়োজন-২০২৫': {
-				title: "২০২৫ সালে নববর্ষের আয়োজন",
+		title: "২০২৫ সালে নববর্ষের আয়োজন",
                 transactions: [
                     { date: '2025-04-12', time: "15:30", reason: "Initial Budget", amount: 0, note: "Initial budget allocation for ২০২৫ নববর্ষ আয়োজন" },
                     { date: "2025-04-12", time: "15:51", reason: "Donation From ক্যছিং", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     { date: "2025-04-12", time: "17:29", reason: "Donation From ওয়াংচিং", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
                     
                 ]
-   	    }
+   	    },
         }
     };
 
