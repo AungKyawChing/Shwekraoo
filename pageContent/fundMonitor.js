@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { date: '2025-01-01', time: "00:01", reason: 'As Much Money as there was in 2024', url: '2024-fund', amount: 0, note: "Not Found Any Main Fund Account."},
             { date: '2025-02-01', time: "00:00", reason: 'Floorboards replacement', url: 'floorboards-replacement-2025-February', amount: 0, note: `Starting floorboards replacement project without fund.`},
             { date: '2025-02-28', time: "16:15", reason: 'Return of Floorboards replacement', url: 'floorboards-replacement-2025-February', amount: 100, note: "Returned unused funds to main account from Floorboards replacement(2025-02-01 00:00)"},
+            { date: '2025-04-12', time: "15:30", reason: 'নববর্ষের আয়োজন, url: 'নববর্ষ-আয়োজন-২০২৫', amount: 0, note: `Starting নববর্ষ আয়োজন without fund.`},
         ],
         transDetails: {
             'floorboards-replacement-2025-February': {
@@ -34,6 +35,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     { date: '2025-02-28', time: "16:15", reason: "Return To Main Fund", amount: -100, note: "Returned unused funds to main account." }
                 ]
             }
+			'নববর্ষ-আয়োজন-২০২৫': {
+				title: "২০২৫ সালে নববর্ষের আয়োজন",
+                transactions: [
+                    { date: '2025-04-12', time: "15:30", reason: "Initial Budget", amount: 0, note: "Initial budget allocation for ২০২৫ নববর্ষ আয়োজন" },
+                    { date: "2025-04-12", time: "15:51", reason: "Donation From ক্যছিং", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "15:54", reason: "Donation From ছেংলুং", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "15:57", reason: "Donation From বুংমে", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "16:02", reason: "Donation From উখিংনুং", amount: 300, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "16:07", reason: "Donation From চেংম্যা", amount: 300, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "16:12", reason: "Donation From চিংনুং(গলাফু)", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "16:17", reason: "Donation From উমাসাং", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
+                    { date: "2025-04-12", time: "16:26", reason: "Donation From চেংছিংমে", amount: 200, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
+                    { date: "2025-04-12", time: "16:32", reason: "Donation From এখিং", amount: 200, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
+                    { date: "2025-04-12", time: "16:44", reason: "Donation From মাচম্যাই(মেসাং)", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
+                    { date: "2025-04-12", time: "17:29", reason: "Donation From ওয়াংচিং", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
+                    
+                ]
+   			 }
         }
     };
 
