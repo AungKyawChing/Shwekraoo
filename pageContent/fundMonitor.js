@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     { date: '2025-02-28', time: "16:15", reason: "Return To Main Fund", amount: -100, note: "Returned unused funds to main account." }
                 ]
             }
-			'নববর্ষ-আয়োজন-২০২৫': {
+	    'নববর্ষ-আয়োজন-২০২৫': {
 				title: "২০২৫ সালে নববর্ষের আয়োজন",
                 transactions: [
                     { date: '2025-04-12', time: "15:30", reason: "Initial Budget", amount: 0, note: "Initial budget allocation for ২০২৫ নববর্ষ আয়োজন" },
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     { date: "2025-04-12", time: "17:29", reason: "Donation From ওয়াংচিং", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
                     
                 ]
-   			 }
+   	    }
         }
     };
 
