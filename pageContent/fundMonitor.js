@@ -36,20 +36,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 ]
             },
 	    'sangrai-2025': {
-		title: "২০২৫ সালে নববর্ষের আয়োজন",
+		title: "2025 Sangrai Ayojon",
                 transactions: [
-                    { date: '2025-04-12', time: "15:30", reason: "Initial Budget", amount: 0, note: "Initial budget allocation for ২০২৫ নববর্ষ আয়োজন" },
-                    { date: "2025-04-12", time: "15:51", reason: "Donation From ক্যছিং", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
-                    { date: "2025-04-12", time: "15:54", reason: "Donation From ছেংলুং", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
-                    { date: "2025-04-12", time: "15:57", reason: "Donation From বুংমে", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
-                    { date: "2025-04-12", time: "16:02", reason: "Donation From উখিংনুং", amount: 300, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
-                    { date: "2025-04-12", time: "16:07", reason: "Donation From চেংম্যা", amount: 300, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
-                    { date: "2025-04-12", time: "16:12", reason: "Donation From চিংনুং(গলাফু)", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
-                    { date: "2025-04-12", time: "16:17", reason: "Donation From উমাসাং", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
-                    { date: "2025-04-12", time: "16:26", reason: "Donation From চেংছিংমে", amount: 200, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
-                    { date: "2025-04-12", time: "16:32", reason: "Donation From এখিং", amount: 200, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
-                    { date: "2025-04-12", time: "16:44", reason: "Donation From মাচম্যাই(মেসাং)", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
-                    { date: "2025-04-12", time: "17:29", reason: "Donation From ওয়াংচিং", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & বাবুয়া" },
+                    { date: '2025-04-12', time: "15:30", reason: "Initial Budget", amount: 0, note: "Initial budget allocation for 2025 Sangrai" },
+                    { date: "2025-04-12", time: "15:51", reason: "Donation From Kyaw Ching", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "15:54", reason: "Donation From Sen Lung", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "15:57", reason: "Donation From Bun May", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "16:02", reason: "Donation From U Khing Nu", amount: 300, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "16:07", reason: "Donation From Chen Mya", amount: 300, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "16:12", reason: "Donation From Ching Nu(Golafu)", amount: 500, note: "Cash collected by Shwe Lung & Aung Kyaw Ching" },
+                    { date: "2025-04-12", time: "16:17", reason: "Donation From U Ma Shung", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & Babuya" },
+                    { date: "2025-04-12", time: "16:26", reason: "Donation From Chen Sing May", amount: 200, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & Babuya" },
+                    { date: "2025-04-12", time: "16:32", reason: "Donation From Aye Khing", amount: 200, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & Babuya" },
+                    { date: "2025-04-12", time: "16:44", reason: "Donation From Ma Cho Meyi(Meshang)", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & Babuya" },
+                    { date: "2025-04-12", time: "17:29", reason: "Donation From Wang Ching", amount: 500, note: "Cash collected by Shwe Lung, Aung Kyaw Ching & Babuya" },
                     
                 ]
    	    },
