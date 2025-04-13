@@ -222,6 +222,21 @@ document.addEventListener("DOMContentLoaded", () => {
             amount: 500,
             note: "Cash collected by Shwe Lung, Aung Kyaw Ching & Babuya",
           },
+          {
+            date: "2025-04-13",
+            time: "08:54",
+            reason: "Donation From Aung K Ching",
+            amount: 500,
+            note: "Cash collected by Shwe Lung",
+          },
+					{
+            date: "2025-04-13",
+            time: "08:54",
+            reason: "Donation From Moung Sen Hla",
+            amount: 500,
+            note: "Cash collected by Shwe Lung",
+          },
+					
         ],
       },
     },
